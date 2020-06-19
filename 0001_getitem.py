@@ -15,8 +15,8 @@ class MyClass(object):
     要想是想类类对象的可迭代，需要手动实现__getitem__()方法
     """
 
-    def __init__(self):
-        self.item = 1211
+    # def __init__(self):
+    #     self.item = 1211
 
     # def __getitem__(self, index):
     #     return index * 2  # 返回索引属性相关值
